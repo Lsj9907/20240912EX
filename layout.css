@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+html {
+    height: 100vh;
+    background-image: url(./images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 200;
+}
+
+.kim_kit {
+    width: 932px;
+    height: 825px;
+    background-color: #fff;
+    border: 3px solid #eeb0b0;
+    margin: 30px auto;
+
+}
+
+/*** header ***/
+header {
+    height: 130px;
+    background-color: #7d1e6a;
+    display: flex;
+    box-sizing: border-box;
+}
+
+header .logo {
+    color: transparent;
+    background-image: url(./images/Leica_Camera_logo.svg.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+}
+
+header .tag {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+
+/*** contents ***/
+
+/* 카테고리 */
+.nav {
+    background-color: #ffcd38;
+    height: 46px;
+}
+
+.nav .nav_list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    color: #7d1e6a;
+    width: inherit;
+}
+
+.nav .nav_list a {
+    font-size: 1.2rem;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+.nav .nav_list a:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.contentbox{
+    display: flex;
+}
+/* 메인 */
+.main {
+    width: 650px;
+    height: 615px;
+    background-color: #ddd;
+    margin: 0;
+    display: flex;
+}
+.main_list{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.main_list figure{
+    background-color: #fff;
+    width: 300px;
+    height: 220px;
+    border: 1px solid red;
+    text-align: right;
+    padding-right: 8px;
+    padding-top: 10px;
+}
+.main_list figure p{
+    font-size: 1.1rem;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.main_list .txt_box1, .txt_box2{
+    width: 240px;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    margin-bottom: auto;
+}
+.txt_box1 h2, .txt_box2 h2{
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 10px
+}
+.txt_box1 span, .txt_box2 span{
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.3rem;
+    color: red;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.txt_box1 p, .txt_box2 p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+/* 사이드 */
+.aside{
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold;
+    width: 290px;
+}
+.aside_list h2{
+    font-size: 2.5rem;
+    padding: 30px 10px;
+    color: red;
+}
+.aside_list_menu{
+    font-size: 2rem;
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+}
+.aside_list_menu li{
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 3px solid red;
+    overflow: hidden;
+}
+.aside_list_menu a{
+    padding: 20px 10px;
+    width: 290px;
+}
+.aside_list_menu a:hover{
+    background-color: #ff9838;
+    color: #fff;
+}
+.aside_address h2{
+    color: red;
+    font-size: 2rem;
+    padding: 30px 10px;
+}
+.aside_address h3{
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+/*** footer ***/
+
+footer{
+    background-color: #7d1e6a;
+    height: 35px;
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
